@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <header style="text-align: center; margin-top: 20px;"><h1>Ball Animation</h1></header>
+    <div id="container">
+        <div id="field">
+            <img id="ball"></img>
+        </div>
+        <div id="button">
+            <button id="run" onclick="run()" class="btn btn-success"><i class="bi bi-play-circle"></i>&nbsp;Run</button>
+            <button id="none" onclick="selectBall('none')" class="btn btn-light">None</button>
+            <button id="basketball" onclick="selectBall('basketball')" class="btn btn-info">Basketball</button>
+            <button id="football" onclick="selectBall('football')" class="btn btn-info">Football</button>   
+            <button id="volleyball" onclick="selectBall('volleyball')" class="btn btn-info">Volleyball</button>
+            <button id="human" onclick="selectBall('human')" class="btn btn-info">Human</button>
+            <button id="cartoon" onclick="selectBall('cartoon')" class="btn btn-info">Cartoon</button>
+            <button id="logo" onclick="selectBall('logo')" class="btn btn-info">Logo</button>
+        </div>
+    </div>
+    <footer>
+        <hr>
+        <p style="text-align: center;">66090864 ชลกร บัวหลวง</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
